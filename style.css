@@ -2,6 +2,18 @@ body {
     background-color: rgb(97, 76, 83);
 }
 
+.main-header{
+    text-align: center;
+    font-size: 5em;
+}
+
+.first-photo {
+    border: 2px solid black;
+    margin: 10em;
+    height:60%;
+    width: 100%;
+}
+
 .personal-nav {
     display: flex;
     flex-direction: row;
@@ -15,21 +27,26 @@ body {
    color: rgb(56, 68, 67);
 }
 
-@media screen and (max-width:310px) {
+@media screen and (max-width:700px) {
     .personal-nav{
+        display: none;
         width: 100%;
         position: relative;
         
     }
+    .main-header {
+        font-size:small;
+    }
 }
 
-.personal-about-me-container {
+/* .personal-about-me-container {
     background-image: url('mountainman.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     height:100vh;
     width: 100vw;
-}
+    background-size: 30em;
+} */
 
 h2 {
     text-align: center;

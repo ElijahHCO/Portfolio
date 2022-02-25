@@ -80,6 +80,15 @@ body {
         display: flex;
         flex-direction: row;
     }
+    .personal-nav-links {
+        font-size: .5em
+    }
+}
+
+@media (max-width: 400px){
+    .personal-nav-links {
+        font-size: xx-small;
+    }
 }
 
 .personal-about-me-container {

@@ -9,6 +9,7 @@ body {
 
 
 .first-photo {
+    text-align: center;
     border: 2px solid black;
     border-radius: 1em;
     margin: 10em;
@@ -39,7 +40,7 @@ body {
         
     }
     .main-header {
-        font-size:small;
+        font-size:medium;
     }
 }
 

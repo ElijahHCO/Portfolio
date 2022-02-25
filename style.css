@@ -58,6 +58,7 @@ body {
     background-color: rgb(222, 235, 240);
     margin:2em;
     border-radius: 1em;
+    padding: 10em;
 }
 
 .personal-resume-container {
@@ -66,6 +67,7 @@ body {
     background-color: rgb(222, 235, 240);
     margin: 2em;
     border-radius: 1em;
+    padding: 10em;
 }
 
 .personal-social-media-container {
@@ -74,6 +76,13 @@ body {
     background-color: rgb(222, 235, 240);
     margin: 2em;
     border-radius: 1em;
+}
+
+.interests-resume-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 }
 
 h2 {

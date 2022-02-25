@@ -16,6 +16,14 @@ body {
     width: 100%;
 }
 
+#mirror-pic {
+    border: .15em solid black;
+    border-radius: 1em;
+    margin: 0em;
+    height:60%;
+    width: 100%;
+}
+
 .personal-nav {
     display: flex;
     flex-direction: row;

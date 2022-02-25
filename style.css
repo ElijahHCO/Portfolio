@@ -2,12 +2,14 @@ body {
     background-color: rgb(97, 76, 83);
 }
 
+/* Header */
 .main-header{
     text-align: center;
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Photos */
 .first-photo {
     border: .15em solid black;
     border-radius: 1em;
@@ -25,9 +27,10 @@ body {
 }
 
 /* Nav bar */
+  
 .personal-nav {
     overflow: hidden;
-    background-color: #333;
+    background-color:rgb(222, 235, 240);
     position: relative;
   }
   
@@ -40,13 +43,13 @@ body {
   }
   
   .personal-nav a:hover {
-    background-color: #ddd;
+    background-color: rgb(222, 235, 240);
     color: black;
   }
   
   .active {
     background-color: #04AA6D;
-    color: white;
+    color:rgb(222, 235, 240);
   }
 
 .personal-nav {
@@ -66,6 +69,7 @@ body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Media Query */
 @media screen and (max-width:700px) {
     .main-header {
         font-size:large;

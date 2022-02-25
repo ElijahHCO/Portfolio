@@ -247,3 +247,28 @@ footer {
     border: .15em solid rgb(32, 31, 31);
     border-radius: 1em;
 }
+
+.music-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: .15em solid black;
+    border-radius: 1em;
+    height:60%;
+    width: 40%;
+}
+
+.interests-music-header {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.interests-music-text {
+    align-items: baseline;
+    text-align: center;
+    background-color: rgb(113, 190, 221);
+    border: .15em solid rgb(222, 235, 240);
+    border-radius: 1em;
+    
+}

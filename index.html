@@ -6,17 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Elijah's Portfolio</title>
 </head>
 
 <body>
-    <nav class="personal-nav">
-        <a href="#about-me" class="personal-nav-links">About Me</a>
-        <a href="interests.html" class="personal-nav-links">Interests</a>
-        <a href="resume.html" class="personal-nav-links">Resume</a>
-        <a href="#social" class="personal-nav-links">Social Media</a>
-        <a href="" class="personal-nav-links">Contact</a>
-    </nav>
+    <div class="personal-nav" id="top-nav">
+        <a href="#home" class="active">Logo</a>
+        <div id="myLinks">
+            <a href="#about-me" class="personal-nav-links">About Me</a>
+            <a href="interests.html" class="personal-nav-links">Interests</a>
+            <a href="resume.html" class="personal-nav-links">Resume</a>
+            <a href="#social" class="personal-nav-links">Social Media</a>
+            <a href="" class="personal-nav-links">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <main class="portfolio-content">
         <h1 class="main-header">John Elijah Hurn</h1>
         <img src="mountainman.jpeg" alt="" class="first-photo">
@@ -44,7 +51,8 @@
         </div>
         <div class="personal-social-media-container" id="social">
             <h2 class="personal-social-media-header">Social Media</h2>
-            <button onclick="window.location.href='https://www.youtube.com/channel/UC1j1Qu_GzXih9Kx9mE0oNmg';">YouTube</button>
+            <button
+                onclick="window.location.href='https://www.youtube.com/channel/UC1j1Qu_GzXih9Kx9mE0oNmg';">YouTube</button>
             <button onclick="window.location.href='https://www.github.com/ElijahHCO';">Github</button>
         </div>
     </main>

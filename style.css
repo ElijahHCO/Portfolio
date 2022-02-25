@@ -39,14 +39,33 @@ body {
     }
 }
 
-/* .personal-about-me-container {
-    background-image: url('mountainman.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    height:100vh;
-    width: 100vw;
-    background-size: 30em;
-} */
+.personal-about-me-container {
+    border: 2px solid black;
+    background-color: rgb(222, 235, 240);
+    text-align: center;
+    margin: 2em;
+}
+
+.personal-interests-container{
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(222, 235, 240);
+    margin:2em;
+}
+
+.personal-resume-container {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(222, 235, 240);
+    margin: 2em;
+}
+
+.personal-social-media-container {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(222, 235, 240);
+    margin: 2em;
+}
 
 h2 {
     text-align: center;

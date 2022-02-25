@@ -124,6 +124,7 @@ footer {
     text-align: center;
     border: .15em solid rgb(32, 31, 31);
     border-radius: 1em;
+    background-color: rgb(222, 235, 240);
 }
 
 .interests-container {
@@ -134,6 +135,7 @@ footer {
 }
 
 .interests-snowboarding {
+    background-color: rgb(222, 235, 240);
     border: .15em solid rgb(32, 31, 31);
     border-radius: 1em;
 }

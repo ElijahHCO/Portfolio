@@ -55,7 +55,7 @@ body {
     text-align: center;
     margin: 2em;
     border: .15em solid black;
-    border-radius: 1em;
+    border-radius: 3em;
 }
 
 .personal-about-me-text {
@@ -68,6 +68,7 @@ body {
     background-color: rgb(222, 235, 240);
     margin:2em;
     border-radius: 1em;
+    padding: 3em;
 }
 
 .personal-resume-container {
@@ -76,6 +77,7 @@ body {
     background-color: rgb(222, 235, 240);
     margin: 2em;
     border-radius: 1em;
+    padding: 3em;
 }
 
 .personal-social-media-container {
@@ -84,6 +86,7 @@ body {
     background-color: rgb(222, 235, 240);
     margin: 2em;
     border-radius: 1em;
+    padding:3em;
     
 }
 
@@ -132,6 +135,8 @@ footer {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    margin: 1em;
+    padding: 1em;
 }
 
 .interests-snowboarding {
@@ -140,7 +145,7 @@ footer {
     border-radius: 1em;
 }
 
-.snowboard-pic {
+.interests-snowboard-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -151,13 +156,46 @@ footer {
 }
 
 .interests-snowboarding-header {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .interests-snowboarding-text {
+    align-items: baseline;
     text-align: center;
-    background-color: rgb(222, 235, 240);
+    background-color: rgb(113, 190, 221);
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     
+}
+
+.interests-photography {
+    background-color: rgb(222, 235, 240);
+    border: .15em solid rgb(32, 31, 31);
+    border-radius: 1em;
+}
+
+.interests-photography-header {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.interests-photography-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: .15em solid black;
+    border-radius: 1em;
+    height:70%;
+    width: 40%;
+}
+
+.interests-photography-text {
+    align-items: baseline;
+    text-align: center;
+    background-color: rgb(113, 190, 221);
+    border: .15em solid rgb(222, 235, 240);
+    border-radius: 1em;
 }

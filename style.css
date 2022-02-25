@@ -10,6 +10,7 @@ body {
 
 .first-photo {
     border: 2px solid black;
+    border-radius: 1em;
     margin: 10em;
     height:60%;
     width: 100%;
@@ -43,10 +44,11 @@ body {
 }
 
 .personal-about-me-container {
-    border: 2px solid black;
     background-color: rgb(222, 235, 240);
     text-align: center;
     margin: 2em;
+    border: 2px solid black;
+    border-radius: 1em;
 }
 
 .personal-interests-container{
@@ -54,6 +56,7 @@ body {
     border: 2px solid black;
     background-color: rgb(222, 235, 240);
     margin:2em;
+    border-radius: 1em;
 }
 
 .personal-resume-container {
@@ -61,6 +64,7 @@ body {
     border: 2px solid black;
     background-color: rgb(222, 235, 240);
     margin: 2em;
+    border-radius: 1em;
 }
 
 .personal-social-media-container {
@@ -68,6 +72,7 @@ body {
     border: 2px solid black;
     background-color: rgb(222, 235, 240);
     margin: 2em;
+    border-radius: 1em;
 }
 
 h2 {
@@ -75,7 +80,7 @@ h2 {
 }
 .elijah-productions {
     height: 5em;
-    width: 5em;
+    width: 8em;
 }
 
 footer {

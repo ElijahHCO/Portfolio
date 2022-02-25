@@ -8,3 +8,10 @@ Currently I have a nav bar that directs you to different section that exist on m
 Tomorrow i plan to fill out my "Interests" and "Resume" pages. As well as, start the process of adding a "Contact" page.
 
 I have had a little trouble today getting things lined up properly and I dont entirely understand how to make things mobile compatible,  but i hope to have clear questions for my support staff and classmates tomorrow. 
+
+2/25/2022
+
+Today is day two of my portfolio build. I have spent most of the morning/early afternoon perfecting my home page layout, while also making small changes to the format of my nav bar. I think i'm satisfied with the layout of the page, but i do have some work to do on the nav bar.
+
+I am going to spend the rest of the afternoon/evening working on the "Interests" and "Resume" pages. 
+

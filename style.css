@@ -48,8 +48,8 @@ body {
   }
   
   .active {
-    background-color: #04AA6D;
-    color:rgb(222, 235, 240);
+    background-color: rgb(222, 235, 240);
+    color:rgb(0, 0, 0);
   }
 
 .personal-nav {

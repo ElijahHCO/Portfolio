@@ -10,7 +10,7 @@ body {
 
 .first-photo {
     text-align: center;
-    border: 2px solid black;
+    border: .15em solid black;
     border-radius: 1em;
     margin: 10em;
     height:60%;
@@ -22,13 +22,13 @@ body {
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(222, 235, 240);
-    border: 2px solid rgb(222, 235, 240);
+    border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
 }
 
 .personal-nav-links {
    margin: 0;
-   padding: 20px;
+   padding: 1.5em;
    color: rgb(56, 68, 67);
 }
 
@@ -48,13 +48,13 @@ body {
     background-color: rgb(222, 235, 240);
     text-align: center;
     margin: 2em;
-    border: 2px solid black;
+    border: .15em solid black;
     border-radius: 1em;
 }
 
 .personal-interests-container{
     text-align: center;
-    border: 2px solid black;
+    border: .15em solid black;
     background-color: rgb(222, 235, 240);
     margin:2em;
     border-radius: 1em;
@@ -62,7 +62,7 @@ body {
 
 .personal-resume-container {
     text-align: center;
-    border: 2px solid black;
+    border: .15em solid black;
     background-color: rgb(222, 235, 240);
     margin: 2em;
     border-radius: 1em;
@@ -70,7 +70,7 @@ body {
 
 .personal-social-media-container {
     text-align: center;
-    border: 2px solid black;
+    border: .15em solid black;
     background-color: rgb(222, 235, 240);
     margin: 2em;
     border-radius: 1em;

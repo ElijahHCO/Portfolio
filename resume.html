@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Elijah's Resume</title>
 </head>
+
 <body>
-    <button onclick="window.location.href='index.html'">Back to Portfolio</button>
-    
-    <script src="app-resume.js"></script>
+    <div class="personal-nav" id="top-nav">
+        <img src="" alt="" class="active">
+        <div id="myLinks">
+            <a href="index.html" class="personal-nav-links">Home</a>
+            <a href="interests.html" class="personal-nav-links">Interests</a>
+            <a href="resume.html" class="personal-nav-links">Resume</a>
+            <a href="#social" class="personal-nav-links">Social Media</a>
+            <a href="" class="personal-nav-links">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="space-div"></div>
+    <header class="resume-page-header">
+        <h1 class="resume-header-name">John Elijah Hurn</h1>
+        <h3>(970)-457-0869 | hurnelijah@yahoo.com | www.github.com/ElijahHCO</h3>
+    </header>
+    <main>
+        <div class="resume-profile">
+            <h4 class="resume-profile-header">Profile</h4>
+            <p>Self-directed software development student with a solid track record of success in former positions in
+                the food service industry. A former bartender/server/cook who spent his time in the industry learning
+                and improving exponentially.</p>
+        </div>
+    </main>
+
+    <footer>
+        <img src="elijah_productions.gif" alt="" class="elijah-productions">
+    </footer>
+    <script src="app.js"></script>
 </body>
+
 </html>

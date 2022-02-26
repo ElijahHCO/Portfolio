@@ -169,7 +169,10 @@ footer {
     text-align: center;
     border: .15em solid rgb(32, 31, 31);
     border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(222, 235, 240);
+    padding: .5em;
 }
 
 .interests-container {
@@ -271,4 +274,28 @@ footer {
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     
+}
+
+
+/* Resume */
+.space-div {
+    padding: 2em;
+}
+
+.resume-page-header {
+    background-color: rgb(222, 235, 240);
+    border: .15em solid black;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+    text-align: left;
+}
+
+.resume-profile {
+    background-color: rgb(222, 235, 240);
+    border: .15em solid rgb(32, 31, 31);
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em;
 }

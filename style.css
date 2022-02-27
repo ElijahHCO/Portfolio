@@ -60,13 +60,14 @@ body {
   
   .personal-nav a.icon {
     background:white;
+    color: white;
     background-color: black;
     cursor: pointer;
   }
   
   .personal-nav a:hover {
     background-color:black;
-    color: white
+    color: rgb(97, 76, 83)
   }
   
   .active {
@@ -330,6 +331,23 @@ footer {
     margin: 2em;
     padding: 1em;
 }
+
 .resume-profile-header {
     text-decoration: underline;
+}
+
+.resume-athens-high {
+
+}
+
+.resume-general-assembly {
+
+}
+
+
+
+/* Contact Form */
+
+body {
+    background-color: rgb(97, 76, 83);
 }

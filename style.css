@@ -7,8 +7,12 @@ body {
     text-align: center;
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
 }
 
+.space-div {
+   padding: 4em;
+}
 /* Photos */
 .first-photo {
     border: .15em solid black;
@@ -55,12 +59,12 @@ body {
   }
   
   .personal-nav a.icon {
-    background: rgb(222, 235, 240);
+    background:black
   }
   
   .personal-nav a:hover {
-    background-color: rgb(222, 235, 240);
-    color: black;
+    background-color:black;
+    color: rgb(97, 76, 83);
   }
   
   .active {
@@ -72,7 +76,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(222, 235, 240);
+    /* background-color: rgb(222, 235, 240); */
+    background-color: black;
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     padding: 1em;
@@ -81,7 +86,8 @@ body {
 .personal-nav-links {
    margin: 0;
    padding: 1.5em;
-   color: rgb(56, 68, 67);
+   /* color: rgb(56, 68, 67); */
+   color: rgb(97, 76, 83);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

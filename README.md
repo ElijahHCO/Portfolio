@@ -20,3 +20,11 @@ I am going to spend the rest of the afternoon/evening working on the "Interests"
 Today is day three of my portfolio build. I am committed to my layout now since I am basically halfway through my alotted time for this assignment. I think i have the basic structure of my home page how i would like it to look. I have filled out my "Interests" page and will spend this afternoon getting the "Resume" complete. 
 
 I have had a bit of a hang up with my nav bar, but have a solution that is working as a place holder until I can get to class Monday to collab with some fellow students to make the bar move with the scroll. 
+
+2/27/2022
+
+Today is day four of my porfolio build. I have made some adjustments to my navbar/logo layout and I am much happier with how it looks/functions now. I plan to spend my Sunday debugging a couple small things regarding its functionality on the home page. 
+
+I need to finish my Resume, Social Media, and Contact pages. 
+
+The Contact page will most likely be my only point of 

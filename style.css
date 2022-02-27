@@ -59,12 +59,13 @@ body {
   }
   
   .personal-nav a.icon {
-    background:black
+    background:white;
+    background-color: black;
   }
   
   .personal-nav a:hover {
     background-color:black;
-    color: rgb(97, 76, 83);
+    color: white
   }
   
   .active {
@@ -87,7 +88,7 @@ body {
    margin: 0;
    padding: 1.5em;
    /* color: rgb(56, 68, 67); */
-   color: rgb(97, 76, 83);
+   color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

@@ -168,7 +168,7 @@ h2 {
 footer {
     border: 2px solid rgb(32, 31, 31);
     border-radius: 1em;
-    background-color: rgb(32, 31, 31);
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;

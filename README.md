@@ -26,5 +26,3 @@ I have had a bit of a hang up with my nav bar, but have a solution that is worki
 Today is day four of my porfolio build. I have made some adjustments to my navbar/logo layout and I am much happier with how it looks/functions now. I plan to spend my Sunday debugging a couple small things regarding its functionality on the home page. 
 
 I need to finish my Resume, Social Media, and Contact pages. 
-
-The Contact page will most likely be my only point of 

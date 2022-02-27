@@ -51,7 +51,7 @@ body {
     overflow: hidden;
     background-color:rgb(222, 235, 240);
     position:fixed;
-    transition: all .8s ease-in-out;
+    transition: all 2s ease-in-out;
   }
   
   .personal-nav #myLinks {
@@ -61,6 +61,7 @@ body {
   .personal-nav a.icon {
     background:white;
     background-color: black;
+    cursor: pointer;
   }
   
   .personal-nav a:hover {
@@ -69,15 +70,14 @@ body {
   }
   
   .active {
-    background-color: rgb(222, 235, 240);
-    color:rgb(0, 0, 0);
+    background-color: black;
+    color:white;
   }
 
 .personal-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: rgb(222, 235, 240); */
     background-color: black;
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
@@ -87,7 +87,6 @@ body {
 .personal-nav-links {
    margin: 0;
    padding: 1.5em;
-   /* color: rgb(56, 68, 67); */
    color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -109,6 +108,12 @@ body {
 @media (max-width: 400px){
     .personal-nav-links {
         font-size: xx-small;
+    }
+    .resume-page-header {
+        font-size: x-small;
+    }
+    .resume-profile {
+        font-size: x-small;
     }
 }
 

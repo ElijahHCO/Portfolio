@@ -39,18 +39,8 @@ function validation() {
         errorMessage.innerHTML = text;
         return false;
     }
-    alert("Form Submitted")
+    alert("Thank You! I look forward to corresponding with you soon!")
     return true;
 
 
-  }
-
-
-function hamburgerMenu() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
   }

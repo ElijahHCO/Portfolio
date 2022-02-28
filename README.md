@@ -26,3 +26,11 @@ I have had a bit of a hang up with my nav bar, but have a solution that is worki
 Today is day four of my porfolio build. I have made some adjustments to my navbar/logo layout and I am much happier with how it looks/functions now. I plan to spend my Sunday debugging a couple small things regarding its functionality on the home page. 
 
 I need to finish my Resume, Social Media, and Contact pages. 
+
+2/28/2022
+
+Today is day five of my portfolio build. I have made significant progress today on my contact page. I just need to get it to actually send me an email with the information provided by the user and it will be complete. 
+
+I am satisfied with my functionality and layout, as far as deliverables go. But i would like to tweak it if time permits. 
+
+I am going to continue to work on getting this contact page to work smoothly the rest of this afternoon.

@@ -322,6 +322,9 @@ footer {
 
 .resume-profile-header {
     text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -329,4 +332,71 @@ footer {
 
 body {
     background-color: rgb(97, 76, 83);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 20em;
+    width: 100%;
+    background:#fff;
+    padding: 1.5em;
+    border-radius: .5em;
+    box-shadow: .5em .5em .15em black;;
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    letter-spacing: .15em;
+    color: #332902;
+}
+
+.wrapper .input-field {
+    margin-bottom: .1em;
+}
+
+.wrapper .input-field input[type="text"],
+.wrapper textarea {
+    width: 100%;
+    border: .15em solid #e0e0e0;
+    padding: 1em;
+}
+
+.wrapper textarea {
+    height: 5em;
+    resize: none;
+}
+
+.wrapper .btn input[type="submit"]{
+    border: 0;
+    margin-top: 1em;
+    padding: .8em;
+    width: 100%;
+    background: rgb(97, 76, 83);
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: bold;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.wrapper #error-message {
+    margin-bottom: 1em;
+    padding: 0;
+    background-color: rgb(252, 136, 136);
+    text-align: center;
+    font-size: 1em;
+    transition: all 0.5s ease-in-out;
 }

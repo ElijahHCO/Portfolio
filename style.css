@@ -157,6 +157,11 @@ body {
     text-align: center;
     font-size: large;
     }
+    .projects-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
 }
 
 
@@ -192,6 +197,11 @@ body {
     }
     .project-description {
         font-size: smaller;
+    }
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 }
 
@@ -420,11 +430,7 @@ footer {
     background-color: rgb(97, 76, 83);
     margin:2em;
     padding: 3em;
-    display: flex;
-    flex-direction: row;
-
 }
-
 .indiv-project {
     border: .15em solid rgb(113, 190, 221);
     background-color:rgb(222, 235, 240);

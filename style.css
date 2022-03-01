@@ -3,7 +3,6 @@ body {
 }
 
 #pop-up {
-    filter: blur();
     position: fixed;
     top: 0;
     left: 0;
@@ -13,6 +12,7 @@ body {
     overflow: auto;
     opacity: 0;
     display: none;
+    filter: blur(.15em);
 }
 
 #pop-up-content {

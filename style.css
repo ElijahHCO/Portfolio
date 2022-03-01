@@ -162,6 +162,20 @@ body {
         justify-content: space-evenly;
         flex-direction: column;
     }
+    #pop-up-content {
+        background-image: url('pics/squirrel.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50em;
+        height: 13em;
+        width: 14em;
+        border-radius: .15em;
+        margin: 12em auto;
+        box-shadow: 0em .01em .01em rgb(32, 31, 31);
+        padding: 1em;
+        line-height: 120%;
+        color: rgb(222, 235, 240);
+    } 
 }
 
 
@@ -438,6 +452,6 @@ footer {
 }
 
 .project-description {
-    font-size: .5em;
+    font-size: 1em;
 }
 

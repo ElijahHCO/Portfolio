@@ -20,7 +20,7 @@ $(document).ready(() => {
   }
   const closeModal = () => {
     $popUp.css('display', 'none');
-    localStorage.setItem("modalOpened");
+    localStorage.setItem("modalOpened", true);
   }
   $closeBtn.on('click', closeModal);
 

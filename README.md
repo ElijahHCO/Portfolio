@@ -1,4 +1,6 @@
 # Portfolio
+elijahhurnportfolio.netlify.app
+
 
 2/24/2022
 
@@ -36,3 +38,12 @@ I am satisfied with my functionality and layout, as far as deliverables go. But 
 I am going to continue to work on getting this contact page to work smoothly the rest of this afternoon.
 
 I am having trouble figuring out how to make the contact page send me an email whenever the form submits
+
+3/1/2022
+
+Today is day six of my portfolio build. I have fixed some bugs in my nav bar but have a couple left to figure out. I have a working contact page that takes a users input and automatically opens/fills out an email with there information provided on the contact page. 
+
+I added a Projects section to my home page. I don't have projects to put in it yet, but this was a requirement, so they will be nice placeholders for later in class when we have done some more presentable projects.
+
+I had some trouble getting the jquery implemented and working but i feel confident with this product. 
+

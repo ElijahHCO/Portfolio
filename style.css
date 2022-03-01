@@ -190,6 +190,9 @@ body {
         text-align: center;
         font-size: medium;
     }
+    .project-description {
+        font-size: smaller;
+    }
 }
 
 .personal-about-me-container {
@@ -240,7 +243,12 @@ footer {
     align-items: center;
 }
 
-
+.interests-resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
 /* Interests Page */
 
@@ -395,19 +403,31 @@ footer {
     justify-content: center; 
 }
 
+.social-buttons {
+    height: 50;
+    width: 50%;
+    background-color: rgb(97, 76, 83);
+}
+
+.social-buttons:hover {
+    cursor: pointer;
+    
+}
+
 /* Projects */
 
 .projects-container {
-    border: .15em solid black;
-    background-color: rgb(222, 235, 240);
+    background-color: rgb(97, 76, 83);
     margin:2em;
-    border-radius: 1em;
     padding: 3em;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .indiv-project {
     border: .15em solid rgb(113, 190, 221);
-    background-color: rgb(222, 235, 240);
+    background-color:rgb(222, 235, 240);
     margin:2em;
     border-radius: 1em;
     padding: 3em;
@@ -417,3 +437,8 @@ footer {
 .project-link {
     color: rgb(97, 76, 83);
 }
+
+.project-description {
+    font-size: 1em;
+}
+

@@ -3,7 +3,7 @@ body {
 }
 
 #pop-up {
-    background-color: black;
+    filter: blur();
     position: fixed;
     top: 0;
     left: 0;
@@ -11,6 +11,7 @@ body {
     width: 100%;
     z-index: 1;
     overflow: auto;
+    opacity: 0;
     display: none;
 }
 

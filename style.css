@@ -150,7 +150,14 @@ body {
     .personal-nav-links {
         font-size: .5em
     }
+    #pop-up-title {
+    padding-bottom: 5em;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    }
 }
+
 
 @media (max-width: 400px){
     .personal-nav-links {
@@ -180,7 +187,7 @@ body {
         padding-bottom: 5em;
         font-weight: bolder;
         text-align: center;
-        font-size: large;
+        font-size: medium;
     }
 }
 

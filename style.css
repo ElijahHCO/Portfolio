@@ -1,8 +1,10 @@
 body {
     background-color: rgb(97, 76, 83);
+    margin: 0;
 }
 
 #pop-up {
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +12,6 @@ body {
     width: 100%;
     z-index: 1;
     overflow: auto;
-    opacity: 0;
     display: none;
 }
 
@@ -54,6 +55,7 @@ body {
     font-size: 3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1em;
+    margin-top: 1em;
 }
 
 .space-div {
@@ -79,7 +81,7 @@ body {
 }
 
 .logo {
-    width: 8%;
+    width: 3%;
     height: 8%;
 }
 
@@ -96,11 +98,11 @@ body {
 .personal-nav {
     overflow: hidden;
     background-color:rgb(222, 235, 240);
-    position:fixed;
+    /* position:fixed; */
     transition: all 2s ease-in-out;
   }
   
-  .personal-nav #links {
+  .personal-nav #myLinks {
     display: none;
   }
   
@@ -124,6 +126,7 @@ body {
 .personal-nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     background-color: black;
     border: .15em solid rgb(222, 235, 240);
@@ -170,7 +173,7 @@ body {
         font-size: x-small;
     }
     #pop-up-content {
-        background-image: url('squirrel.jpg');
+        background-image: url('pics/squirrel.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 50em;
@@ -197,6 +200,7 @@ body {
     margin: 2em;
     border: .15em solid black;
     border-radius: 3em;
+    padding: 3em;
 }
 
 .personal-about-me-text {
@@ -356,9 +360,9 @@ footer {
 
 
 /* Resume */
-.space-div {
-    padding: 2em;
-}
+/* .space-div {
+    padding: e
+} */
 
 #denver {
     text-align: left;
@@ -394,5 +398,6 @@ footer {
 /* Social */
 
 .social {
-    align-items: center;
+    display: flex;
+    justify-content: center; 
 }

@@ -11,11 +11,24 @@
 
 <body>
     <a href="index.html" class="button">Home</a>
+    <div class="personal-nav" id="top-nav">
+        <img src="pics/logo.gif" alt="" class="logo">
+        <img src="" alt="" href="" class="active">
+        <div id="myLinks">
+            <a href="#about-me" class="personal-nav-links">About Me</a>
+            <a href="interests.html" class="personal-nav-links">Interests</a>
+            <a href="resume.html" class="personal-nav-links">Resume</a>
+            <a href="contact.html" class="personal-nav-links">Contact</a>
+        </div>
+        <a class="icon" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div class="wrapper">
         <h2>Contact Elijah</h2>
         <div id="error-message"></div>
 
-        <form id="myform" onsubmit="return submitEmail()">
+        <form id="myform">
             <div class="input-field">
                 <input type="text" placeholder="Name" id="name">
             </div>
@@ -32,7 +45,7 @@
                 <textarea id="message" placeholder="Message"></textarea>
             </div>
             <div class="btn">
-                <input type="submit">
+                <input type="submit" id="submitBtn">
             </div>
         </form>
     </div>

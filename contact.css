@@ -96,13 +96,11 @@ body {
     align-items: center;
 }
 /* Nav bar */
-  
+
 .personal-nav {
     overflow: hidden;
     background-color:rgb(222, 235, 240);
-    /* position:fixed; */
-    transition: all 2s ease-in-out;
-  }
+  } 
   
   .personal-nav #myLinks {
     display: none;
@@ -141,4 +139,5 @@ body {
    padding: 1.5em;
    color: white;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   transition: all 2s ease-in-out;
 }

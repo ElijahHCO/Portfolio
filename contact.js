@@ -1,11 +1,23 @@
+$(document).ready(() => {
+    var links = $("#myLinks");
+    var hamburger = $("#hamburger");
+  
+    hamburger.click(() => {
+      if (links.css("display") === "block") {
+        links.css("display", "none");
+      } else {
+        links.css("display", "block");
+      }
+    });
+
 $("#submitBtn").click(submitEmail)
 
 function submitEmail() {
     let name = $("#name").val();
-    let subject = document.getElementById("subject").value;
-    let phone = document.getElementById("phone").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
+    let subject = $("#subject").val();
+    let phone = $("#phone").val();
+    let email = $("#email").val();
+    let message = $("#message").val();
     let errorMessage = document.getElementById("error-message");
     let text;
 
@@ -42,9 +54,8 @@ function submitEmail() {
     }
 
     window.open(`mailto:hurnelijah@yahoo.com?subject=${subject}&body=${name}%0A${message}%0A${phone}`)
-    // alert(`Thank you, ${name}! I look forward to speaking with you!`);
-
+   
     return true;
 }
 
-
+})

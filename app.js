@@ -1,6 +1,6 @@
 
 function hamburgerMenu() {
-  var x = document.getElementById("myLinks");
+  var x = document.getElementById("links");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

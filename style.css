@@ -100,7 +100,7 @@ body {
     transition: all 2s ease-in-out;
   }
   
-  .personal-nav #myLinks {
+  .personal-nav #links {
     display: none;
   }
   
@@ -180,7 +180,7 @@ body {
         padding-bottom: 5em;
         font-weight: bolder;
         text-align: center;
-        font-size: medium;
+        font-size: large;
     }
 }
 
@@ -212,16 +212,6 @@ body {
     margin: 2em;
     border-radius: 1em;
     padding: 3em;
-}
-
-.personal-social-media-container {
-    text-align: center;
-    border: .15em solid black;
-    background-color: rgb(222, 235, 240);
-    margin: 2em;
-    border-radius: 1em;
-    padding:3em;
-    
 }
 
 h2 {
@@ -394,3 +384,10 @@ footer {
 }
 
 
+/* Social */
+
+.social {
+    margin: auto;
+    margin-left: 30em;
+    align-items: center;
+}

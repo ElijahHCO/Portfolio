@@ -12,7 +12,6 @@ body {
     overflow: auto;
     opacity: 0;
     display: none;
-    filter: blur(.15em);
 }
 
 #pop-up-content {

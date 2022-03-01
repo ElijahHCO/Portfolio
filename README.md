@@ -34,3 +34,5 @@ Today is day five of my portfolio build. I have made significant progress today 
 I am satisfied with my functionality and layout, as far as deliverables go. But i would like to tweak it if time permits. 
 
 I am going to continue to work on getting this contact page to work smoothly the rest of this afternoon.
+
+I am having trouble figuring out how to make the contact page send me an email whenever the form submits

@@ -176,6 +176,12 @@ body {
         line-height: 120%;
         color: rgb(222, 235, 240);
     } 
+    #pop-up-title {
+        padding-bottom: 5em;
+        font-weight: bolder;
+        text-align: center;
+        font-size: small;
+    }
 }
 
 .personal-about-me-container {

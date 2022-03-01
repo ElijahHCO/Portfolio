@@ -211,6 +211,8 @@ body {
     }
     .project-description {
         font-size: smaller;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .projects-container {
         display: flex;

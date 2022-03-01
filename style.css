@@ -210,9 +210,7 @@ body {
         font-size: medium;
     }
     .project-description {
-        font-size: smaller;
-        padding-left: 1em;
-        padding-right: 1em;
+        font-size: xx-small;
     }
     .projects-container {
         display: flex;

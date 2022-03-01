@@ -1,5 +1,5 @@
 
-function validation() {
+function submitEmail() {
     let name = document.getElementById("name").value;
     let subject = document.getElementById("subject").value;
     let phone = document.getElementById("phone").value;
@@ -39,7 +39,7 @@ function validation() {
         errorMessage.innerHTML = text;
         return false;
     }
-    alert("Thank You! I look forward to corresponding with you soon!")
+    alert(`Thank you, ${name}! I look forward to speaking with you!`)
     return true;
     
 

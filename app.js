@@ -7,3 +7,21 @@ function hamburgerMenu() {
     x.style.display = "block";
   }
 }
+
+$(
+  () => {
+  
+    const $popUp = $(`#pop-up`);
+    const $closeBtn = $(`#close`);
+
+    const openModal = () => {
+      $popUp.css('display', 'block')
+    }
+    const closeModal = () => {
+      $popUp.css('display', 'none');
+    }
+    $closeBtn.on('click', closeModal);
+
+    setTimeout(openModal, 3000)
+  }
+)

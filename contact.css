@@ -2,12 +2,25 @@
 body {
     background-color: rgb(97, 76, 83);
 }
+
+.button {
+    margin: 1em;
+    margin-top: 2em;
+    background-color: black;
+    color: white;
+    padding: 1em 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .wrapper {

@@ -2,6 +2,51 @@ body {
     background-color: rgb(97, 76, 83);
 }
 
+#pop-up {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+
+#pop-up-content {
+    /* background-color: rgb(222, 235, 240); */
+    background-image: url('squirrel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50em;
+    height: 21em;
+    width: 34em;
+    border-radius: .15em;
+    margin: 12em auto;
+    box-shadow: 0 .01em .01em rgb(32, 31, 31);
+    padding: 1em;
+    line-height: 120%;
+}
+
+#pop-up-title {
+    padding-bottom: 5em;
+    font-weight: bolder;
+    text-align: center;
+}
+#pop-up-footer {
+    text-align: center;
+}
+
+.pop-up-buttons {
+    padding: 1em 1.2em;
+    background-color: rgb(97, 76, 83);
+    border: none;
+    outline: none;
+    border-radius: .15em;
+    color: rgb(222, 235, 240);
+    cursor: pointer;
+}
 /* Header */
 .main-header{
     text-align: center;

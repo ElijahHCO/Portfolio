@@ -29,7 +29,7 @@ function submitEmail() {
         return false;
     }
 
-    if (subject.length < 5) {
+    if (subject.length < 3) {
         text = "Please Enter a Subject";
         errorMessage.innerHTML = text;
         return false;

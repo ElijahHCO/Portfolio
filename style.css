@@ -140,7 +140,7 @@ body {
 }
 
 /* Media Query */
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     .main-header {
         font-size:large;
     }
@@ -179,7 +179,10 @@ body {
 }
 
 
-@media (max-width: 400px){
+@media screen and (max-width: 576px){
+    .space-div {
+        padding-top: 2px;
+    }
     .personal-nav-links {
         font-size: xx-small;
     }
@@ -216,6 +219,12 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0;
+    }
+    .indiv-project {
+        margin: 2em 0 !important;
+    }
+    .interests-resume-container {
+        flex-direction: column;
     }
 }
 
@@ -436,8 +445,10 @@ footer {
 
 .projects-container {
     background-color: rgb(97, 76, 83);
-    margin:2em;
+    /* margin:2em; */
     padding: 3em;
+    display: flex;
+    
 }
 .indiv-project {
     border: .15em solid rgb(113, 190, 221);
@@ -456,3 +467,6 @@ footer {
     font-size: 1em;
 }
 
+.interests-resume-container {
+    display: flex;
+}

@@ -176,6 +176,9 @@ body {
         line-height: 120%;
         color: rgb(222, 235, 240);
     } 
+    .interests-resume-container {
+        flex-direction: column;
+    }
 }
 
 

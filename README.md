@@ -1,6 +1,6 @@
 # Portfolio
 
-
+http://www.elijahhurn.com
 
 2/24/2022
 
@@ -59,4 +59,7 @@ The nav bar is formatted with my logo and a hamburger menu that, when clicked, w
 
 I hope to debug the issue i had with connecting the nav bar to the contct page, but for now i am satisfied with a home button. I also want to put some sort of interactive quality on the projects portion of my home page, maybe something that previews the projects on the page. 
 
-While i did include @media querys to meet the MVP requirements, i feel that alot of this is stylistic choices which i will ultimatley make when i am ready to make the site ready to use for applications.
+I used @media to rearrange some of my home page to fit a better look for mobile/tablet/desktop views.
+I implemented some JS/Jquery to make the nav bar functional and to make the contacxt form submit to the users email.
+
+My style choices were made with meeting requirements in mind. I plan to refine and redefine the page in the future.

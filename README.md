@@ -1,10 +1,10 @@
 # Portfolio
-elijahhurnportfolio.netlify.app
+
 
 
 2/24/2022
 
-Today marks the beginning of my Portfolio build. I have started with an attempt at a simple outline and the addition of a few photos. \
+Today marks the beginning of my Portfolio build. I have started with an attempt at a simple outline and the addition of a few photos. 
 Currently I have a nav bar that directs you to different section that exist on my home-page. In some of the sections there is just information, i.e. the "About Me" section, and some of the sections include links to additional pages, i.e. "Interests" and "Resume." The "Social Media" section will only include links to my Github and YouTube page. 
 
 Tomorrow i plan to fill out my "Interests" and "Resume" pages. As well as, start the process of adding a "Contact" page.
@@ -47,3 +47,16 @@ I added a Projects section to my home page. I don't have projects to put in it y
 
 I had some trouble getting the jquery implemented and working but i feel confident with this product. 
 
+3/2/2022
+
+Today marks our final day to finish up our portfolios. I am satisfied with my build, although i will continue to improve it as i learn more skills. 
+
+My portfolio opens with an automatic modal pop-up welcoming you to my page with a picture i took of a squirrel. You then have the choice to click a button to close the modal and enter the portfolio site. You are greeted with a nav bar and my name followed by a picture of me on a hike. The rest of my home page consists of a section for my future projects, an about me section, and two more sections with links to my interests page and my resume page. I also provided links to my youtube channel, my github, and my linkedin. The footer of the page is a gif i use as a closer on my youtube videos. 
+
+My additional pages include the interests page, resume page, and a contact page. The interests page and the resume page are straight forward information dumps as of right now, and the contact page includes a box for users to type out some information and upon submission, will be directed to there mail platform with an email already filled out with the information they put in on my page. 
+
+The nav bar is formatted with my logo and a hamburger menu that, when clicked, will present links to other pages. I included my nav bar on every page excpet the contact page. The contact page only has a home button that takes you back to my main portfolio page. 
+
+I hope to debug the issue i had with connecting the nav bar to the contct page, but for now i am satisfied with a home button. I also want to put some sort of interactive quality on the projects portion of my home page, maybe something that previews the projects on the page. 
+
+While i did include @media querys to meet the MVP requirements, i feel that alot of this is stylistic choices which i will ultimatley make when i am ready to make the site ready to use for applications.

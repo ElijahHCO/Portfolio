@@ -140,7 +140,7 @@ body {
 }
 
 /* Media Query */
-@media screen and (max-width:768px) {
+@media screen and (max-width:700px) {
     .main-header {
         font-size:large;
     }

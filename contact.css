@@ -75,10 +75,10 @@ body {
 .wrapper #error-message {
     margin-bottom: 1em;
     padding: 0;
-    background-color: rgb(192, 16, 16);
+    background-color: rgb(231, 55, 55);
     text-align: center;
     font-size: 1em;
-    transition: all 0.5s ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
 .logo {
@@ -234,6 +234,7 @@ body {
 .social {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 1em;
 }
 
 .social-buttons {
@@ -242,9 +243,13 @@ body {
     background-color: rgb(97, 76, 83);
     border: solid .15em rgb(97, 76, 83);
     border-radius: 1em;
+    box-shadow: .5em .5em .15em black;
 }
 
 .social-buttons:hover {
     cursor: pointer;
     
+}
+#youtube {
+    width: 3.5em;
 }

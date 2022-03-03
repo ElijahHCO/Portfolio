@@ -128,7 +128,7 @@ body {
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     padding: 1em;
-    box-shadow: .5em .5em .15em black;
+    /* box-shadow: .5em .5em .15em black; */
 }
 
 .personal-nav-links {

@@ -185,9 +185,6 @@ body {
 
 
 @media screen and (max-width: 576px){
-    .space-div {
-        padding-top: 2px;
-    }
     .personal-nav-links {
         font-size: xx-small;
     }

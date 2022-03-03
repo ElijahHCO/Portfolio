@@ -51,11 +51,11 @@ I had some trouble getting the jquery implemented and working but i feel confide
 
 Today marks our final day to finish up our portfolios. I am satisfied with my build, although i will continue to improve it as i learn more skills. 
 
-My portfolio opens with an automatic modal pop-up welcoming you to my page with a picture i took of a squirrel. You then have the choice to click a button to close the modal and enter the portfolio site. You are greeted with a nav bar and my name followed by a picture of me on a hike. The rest of my home page consists of a section for my future projects, an about me section, and two more sections with links to my interests page and my resume page. I also provided links to my youtube channel, my github, and my linkedin. The footer of the page is a gif i use as a closer on my youtube videos. 
+My portfolio opens with an automatic modal pop-up welcoming you to my page with a picture i took of a squirrel. You then have the choice to click a button to close the modal and enter the portfolio site. You are greeted with a nav bar and my name followed by a picture of me on a hike. The rest of my home page consists of a section for my future projects, an about me section, and two more sections with links to my interests page and my resume page. I also provided links to my youtube channel, my github, and my linkedin. The footer of the page is a gif i use on my youtube videos. 
 
 My additional pages include the interests page, resume page,  contact page, and a projects page that is a placeholder for projects we complete in the future. The interests page and the resume page are straight forward information dumps as of right now, and the contact page includes a box for users to type out some information and upon submission, will be directed to there mail platform with an email already filled out with the information they put in on my page. 
 
-The nav bar is formatted with my logo and a hamburger menu that, when clicked, will present links to other pages. 
+The nav bar is formatted with my logo and a hamburger menu that, when clicked, will present links to other pages. When clicked the links take you to the pages represented.
 
 
 I used @media to rearrange some of my home page to fit a better look for mobile/tablet/desktop views.

@@ -233,3 +233,22 @@ body {
         flex-direction: column;
     }
 }
+/* Social */
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-buttons {
+    height: 2.5em;
+    width:2.5em;
+    background-color: rgb(97, 76, 83);
+    border: solid .15em rgb(97, 76, 83);
+    border-radius: 1em;
+}
+
+.social-buttons:hover {
+    cursor: pointer;
+    
+}

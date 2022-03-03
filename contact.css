@@ -66,7 +66,6 @@ body {
     width: 100%;
     background: rgb(97, 76, 83);
     color: black;
-    text-transform: uppercase;
     letter-spacing: .15em;
     font-weight: bold;
     border-radius: 1em;
@@ -76,7 +75,7 @@ body {
 .wrapper #error-message {
     margin-bottom: 1em;
     padding: 0;
-    background-color: rgb(252, 136, 136);
+    background-color: rgb(192, 16, 16);
     text-align: center;
     font-size: 1em;
     transition: all 0.5s ease-in-out;

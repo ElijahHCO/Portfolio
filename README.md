@@ -66,3 +66,5 @@ My style choices were made with meeting requirements in mind. I plan to refine t
 I also realized my photos are a bit large and i plan to compress them. This will hopefully help the sites functionality.
 
 I added social buttons to every page.
+
+Currently on my contact page, the phone can only be entered in numbers and has to be 9

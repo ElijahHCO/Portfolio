@@ -36,7 +36,7 @@ function submitEmail() {
     }
 
     if (isNaN(phone) || phone.length < 9) {
-        text = "Please Enter a Valid Phone #";
+        text = "Please Enter a Valid Phone # Only Using Numbers";
         errorMessage.innerHTML = text;
         return false;
     }

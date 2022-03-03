@@ -61,6 +61,8 @@ The nav bar is formatted with my logo and a hamburger menu that, when clicked, w
 I used @media to rearrange some of my home page to fit a better look for mobile/tablet/desktop views.
 I implemented some JS/Jquery to make the nav bar functional and to make the contacxt form submit to the users email.
 
-My style choices were made with meeting requirements in mind. I plan to refine and redefine the page in the future.
+My style choices were made with meeting requirements in mind. I plan to refine the page in the future.
 
 I also realized my photos are a bit large and i plan to compress them. This will hopefully help the sites functionality.
+
+I added social buttons to every page.

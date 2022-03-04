@@ -47,7 +47,7 @@ function submitEmail() {
         return false;
     }
 
-    if (message.length <= 100) {
+    if (message.length <= 10) {
         text = "Message must be more than 100 characters";
         errorMessage.innerHTML = text;
         return false;

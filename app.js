@@ -24,5 +24,5 @@ $(document).ready(() => {
   }
   $closeBtn.on('click', closeModal);
 
-    setTimeout(openModal, 3000)
+    setTimeout(openModal, 500)
 })

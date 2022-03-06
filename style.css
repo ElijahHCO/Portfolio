@@ -324,7 +324,7 @@ footer {
 
 .interests-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     margin: 1em;
@@ -369,6 +369,7 @@ footer {
     border: .15em solid rgb(32, 31, 31);
     border-radius: 1em;
     box-shadow: .5em .5em .15em black;
+    margin: 1em;
 }
 
 .interests-photography-header {
@@ -402,6 +403,8 @@ footer {
     border: .15em solid rgb(32, 31, 31);
     border-radius: 1em;
     box-shadow: .5em .5em .15em black;
+    padding: 1em;
+    margin: 1em;
 }
 
 .music-pic {
@@ -411,7 +414,7 @@ footer {
     border: .15em solid black;
     border-radius: 1em;
     height:60%;
-    width: 40%;
+    width: 50%;
     box-shadow: .5em .5em .15em black;
 }
 

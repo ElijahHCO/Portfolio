@@ -106,7 +106,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     box-shadow: .5em .5em .15em rgb(32, 31, 31);
 }
 /* Nav bar */
@@ -496,7 +496,7 @@ footer {
 }
 
 .indiv-project {
-    border: .15em solid rgb(113, 190, 221);
+    border: .15em solid rgb(32, 31, 31);
     background-color:rgb(222, 235, 240);
     margin:2em;
     border-radius: 1em;

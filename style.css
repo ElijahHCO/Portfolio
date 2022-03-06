@@ -96,6 +96,19 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 } */
+
+.index-buttons {
+    background-color: rgb(32, 31, 31);
+    border: .15em solid rgb(255, 255, 255);
+    border-radius: 1em;
+    color: rgb(255, 255, 255);
+    padding: .8em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: .5em .5em .15em rgb(32, 31, 31);
+}
 /* Nav bar */
 
 .personal-nav {

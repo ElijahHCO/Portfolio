@@ -4,7 +4,7 @@ body {
 }
 
 #pop-up {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.623);
     position: fixed;
     top: 0;
     left: 0;
@@ -64,10 +64,13 @@ body {
 .first-photo {
     border: .15em solid black;
     border-radius: 1em;
-    margin: 0em;
+    margin: 0em auto;
     height:60%;
-    width: 100%;
+    width: 80vw;
     box-shadow: .5em .5em .15em black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #face-pic {
@@ -76,8 +79,8 @@ body {
     border-radius: 1em;
     margin-left: auto;
     margin-right: auto;
-    height:60%;
-    width: 50%;
+   
+    width: 30%;
     box-shadow: .5em .5em .15em black;
 }
 
@@ -280,7 +283,7 @@ body {
     box-shadow: .5em .5em .15em black;
 }
 
-.personal-resume-container {
+.personal-resume-container  {
     text-align: center;
     border: .15em solid black;
     background-color: rgb(222, 235, 240);
@@ -529,4 +532,12 @@ footer {
 .interests-resume-container {
     display: flex;
     justify-content: center;
+}
+
+.personal-interests-text {
+    width: 275px;
+}
+
+.personal-resume-container button {
+    margin-top: 2.2em;
 }

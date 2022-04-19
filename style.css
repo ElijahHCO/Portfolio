@@ -559,3 +559,12 @@ footer {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.pdf {
+ text-align: center;
+ padding: 1em;
+}
+
+.pdf-btn {
+    cursor: pointer;
+}

@@ -439,8 +439,9 @@ footer {
 
 /* Resume */
 
-#denver {
-    text-align: left;
+.resume-header-name {
+    margin: 0;
+    padding:.25em;
 }
 
 .resume-page-header {
@@ -470,9 +471,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: larger;
 }
 
+.resume-education-list{
+    list-style: none;
+    padding: 1em;
+}
 
+.education-list-items{
+    margin: 0em 0em 0em 3em;
+}
+
+.core-list {
+    text-align: center;
+}
 /* Social */
 
 .social {
@@ -556,15 +569,32 @@ footer {
 
 .experience-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-.pdf {
+#pdf {
  text-align: center;
- padding: 1em;
+ cursor: pointer;
+}
+.experience-buttons{
+    height: 6em;
+    width:6em;
+    background-color: rgb(97, 76, 83);
+    border: solid .15em rgb(97, 76, 83);
+    border-radius: 1em;
+    /* box-shadow: .5em .5em .15em black; */
 }
 
-.pdf-btn {
-    cursor: pointer;
+.experience-list{
+    padding: 1em;
+}
+
+.indented{
+    margin: 0em 0em 0em 3em;
+}
+
+.job-title{
+    margin: 0;
+    padding: .5em;
 }

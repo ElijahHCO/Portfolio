@@ -541,3 +541,21 @@ footer {
 .personal-resume-container button {
     margin-top: 2.2em;
 }
+
+.core-comp-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.education-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

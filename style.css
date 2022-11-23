@@ -361,10 +361,11 @@ footer {
 .interests-snowboarding-text {
     align-items: baseline;
     text-align: center;
-    background-color: rgb(113, 190, 221);
+    /* background-color: rgb(113, 190, 221); */
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     box-shadow: .5em .5em .15em black;
+    padding: 1em;
 }
 
 .interests-photography {
@@ -395,10 +396,11 @@ footer {
 .interests-photography-text {
     align-items: baseline;
     text-align: center;
-    background-color: rgb(113, 190, 221);
+    /* background-color: rgb(113, 190, 221); */
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     box-shadow: .5em .5em .15em black;
+    padding: 1em;
 }
 
 .interests-music {
@@ -430,10 +432,11 @@ footer {
 .interests-music-text {
     align-items: baseline;
     text-align: center;
-    background-color: rgb(113, 190, 221);
+    /* background-color: rgb(113, 190, 221); */
     border: .15em solid rgb(222, 235, 240);
     border-radius: 1em;
     box-shadow: .5em .5em .15em black;
+    padding: 1em;
 }
 
 
